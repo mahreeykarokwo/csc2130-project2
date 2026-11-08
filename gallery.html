@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1.0">
+        <title>gallery | Academic portal</title>
+        <link rel="stylesheet"
+        href="styles.css">
+    </head>
+    <body>
+        <!--HEADER-->
+        <header class="site-header">
+            <img src="images/image_(2).jpg"
+            alt="Academic Portal logo"width="90" height="90" loading="lazy">
+            <div class="header-text">
+                <h1>Academic Portal</h1>
+                <p>Campus gallery</p>
+            </div>
+        </header>
+        <!--NAV-->
+        <nav class="navbar">
+            <a href="Home.html"
+            class="nav-link">Home</a>
+            <a href="About.html"
+            class="nav-link">About</a>
+            <a href="Contact.html"
+            class="nav-link">contact</a>
+            <a href="data.html"
+            class="nav-link">student records</a>
+            <a href="gallery.html"
+            class="nav-link active">Gallery</a>
+        </nav>
+        <!--MAIN-->
+        <main class="container">
+            <!--SECTION 1 -Gallery with 3 images-->
+            <section>
+                <h2>Campus life Gallery</h2>
+                <p>Moments from our University community -learning, growing and succeding together</p>
+                <div class="galler-grid">
+                    <img src="images/image_(4).jpg" alt="students angaging in various activities" loading="lazy"> 
+                    <img src="images/images_(5).jpg" alt="students attending lectures in lecture hall" loading="lazy">
+                    <img src="images/image_(6).jpg" alt="students walking around campus" loading="lazy">
+                </div>
+            </section>
+            <!--SECTION 2 -Article with table-->
+            <section>
+                <article>
+                    <h2>Academic Events calendar</h2>
+                    <p>Stay updated with key academic dates and events for the current semester.</p>
+                    <table class="data-table">
+                        <caption>Upcoming Academic Events.</caption>
+                        <thead>
+                            <tr>
+                                <th
+                                scope="col">Event</th>
+                                <th
+                                scope="col">Date</th>
+                                <th
+                                scope="col">Venue</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mid-semester Exams Begin</td>
+                                <td>nov 15,2026</td>
+                                <td>main Hall</td>
+                            </tr>
+                            <tr>
+                                <td>Course registration Deadline</td>
+                                <td>Dec 1,2026</td>
+                                <td>Online portal</td>
+                            </tr>
+                            <tr>
+                                <td>End of semester Exams</td>
+                                <td>Dec 20,2026</td>
+                                <td>Examination hall</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!--video Element-->
+                    <div class="media-card">
+                        <h3>Virtual tour of campus</h3>
+                        <video controls width="100%" height="400" poster="images/video-poster.jpg">
+                            <source
+                            src="campus tour.mp4" type="video/mp4">
+                        </video>
+                    </div> 
+                </article>
+            </section>
+            <!--ASIDE - Sidebar-->
+            <Aside class="sidebar">
+                <h3>Important Announcements</h3>
+                <ul>
+                    <li>Portal maintenance:nov 10,8PM-10PM</li>
+                    <li>Fee payment Deadline:nov 12</li>
+                    <li>Library extended hours:7AM-10PM</li>
+                </ul>
+            </Aside>
+        </main>
+    </body>
+</html>
